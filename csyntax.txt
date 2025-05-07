@@ -1,0 +1,25 @@
+	g++ Assi1.cpp -fopenmp -o Assi1.exe
+	Assi1.exe
+g++ Assi1.cpp -fopenmp -o Assi1
+./Assi1
+
+	g++ Assi2.cpp -fopenmp -o Assi2.exe
+	Assi2.exe
+g++ Assi2.cpp -fopenmp -o Assi2
+./Assi2
+
+	g++ Assi3.cpp -fopenmp -o Assi3.exe
+	Assi3.exe
+g++ Assi3.cpp -fopenmp -o Assi3
+./Assi3
+
+
+
+
+for ass4
+sudo apt update
+sudo apt install -y nvidia-cuda-toolkit
+nvcc --version
+nvcc Assi4.cu -o Assi4
+./Assi4
+
